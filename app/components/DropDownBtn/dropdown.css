@@ -1,0 +1,42 @@
+.sideDrop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.filterBtn {
+  display: flex;
+  justify-content: start;
+  align-items: center !important;
+  gap: 20px;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  color: gray;
+  width: 150px !important;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.dropdown select {
+  font-size: 20px;
+  border: none;
+}
+
+@media (max-width: 480px) {
+  .filterBtn h4 {
+    display: none;
+  }
+
+  .dropdown select {
+    font-size: 15px !important;
+  }
+}
